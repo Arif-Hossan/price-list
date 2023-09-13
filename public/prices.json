@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 30.00,
+      "features": [
+        "Gym Access",
+        "Cardio Equipment",
+        "Locker Room"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Premium",
+      "price": 50.00,
+      "features": [
+        "Gym Access",
+        "Cardio Equipment",
+        "Locker Room",
+        "Group Classes",
+        "Personal Trainer",
+        "(2 sessions/month)"  
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Personal",
+      "price": 80.00,
+      "features": [
+        "Custom Workout Plans",
+        "One-on-One Training",
+        "Gym Access",
+        "4 sessions/month"
+      ]
+    }    
+  ]
+  

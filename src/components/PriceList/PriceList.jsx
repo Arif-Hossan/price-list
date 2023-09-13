@@ -11,9 +11,9 @@ const PriceList = () => {
             .then(data => setPrices(data))
     }, [])
     return (
-        <div>
-            <h2 className="text-purple-900 text-5xl font-bold bg-purple-300 pt-2 pb-4 text-center">Awesome affordable prices</h2>
-            <div className="grid grid-cols-3 gap-3 justify-items-center">
+        <div className="">
+            <h2 className="text-purple-900 text-5xl font-bold bg-purple-300 p-4 m-2 text-center">Awesome affordable prices</h2>
+            <div className="grid md:grid-cols-3 gap-3">
             {
                 prices.map(price => <PriceCard
                     key={price.id}
